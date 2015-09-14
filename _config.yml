@@ -1,14 +1,14 @@
 # Site settings
-title: College Scorecard
+title: RightCollege
 
 description:
   Helping prospective college students find the right school.
 
 # the subpath of your site, e.g. /blog
-baseurl: /college-choice
+baseurl: /newedinc
 
 # permanent url, for use in meta references
-url: https://collegescorecard.ed.gov
+url: http://jkuruzovich.github.io
 
 # app version number
 version: v1.4.0
@@ -31,8 +31,8 @@ analytics: true
 
 # API configuration
 API:
-  baseurl: https://api.data.gov/TEST/ed/production/v1/
-  key: ''
+  baseurl: 'https://api.data.gov/ed/collegescorecard/v1/schools'
+  key: 'vaadMRjgyDsvqwltLTh1BFdwYcMe2XxveV9DuNm3'
 
 # specify paths to exclude from copying to _site
 # Note: files and directories with the '_' prefix are excluded
